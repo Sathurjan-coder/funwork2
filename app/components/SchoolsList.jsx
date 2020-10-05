@@ -5,15 +5,16 @@ var createReactClass = require('create-react-class');
 // require('..')
 module.exports = createReactClass({
    render:function(){
-       return(<div className="container-fluid  ">
+       return(<div className="container-fluid ">
 
            <div className="row">
-           <div className="col-md-6 offset-3 "><br/>
+           <div className="col-md-3 offset-3 ">
+               <br/>
            <br/>
-              <img className="img1"width="600px" height="400px" src="https://softwaremanagerblog.com/wp-content/uploads/2019/06/consulting-2204253_1280-e1561028650564-1024x611.png"/>
+               
            </div>
                 <div className="col-md-6 offset-3">
-                    <AddSchool />
+                   <center><AddSchool /></center> 
                 </div>
                 </div>
                 <div className="row">

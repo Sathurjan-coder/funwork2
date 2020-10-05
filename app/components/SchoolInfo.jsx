@@ -33,9 +33,9 @@ module.exports = createReactClass({
                     {this.props.info.tagline}
                     <span className="pull-right text-uppercase delete-button"  onClick={this.deleteSchool}>&times;</span>
                 </div>
-                <div className="panel-body cc2"><strong>Reason : </strong> {this.props.info.name}</div>
-                <div className="panel-body cc2"><strong>Event description: </strong> {this.props.info.place}</div>
-                <div className="panel-body cc2"><strong>Event on: </strong> {this.props.info.date}</div>
+                <div className="panel-body cc2"><strong>Name </strong> {this.props.info.name}</div>
+                <div className="panel-body cc2"><strong>your Place </strong> {this.props.info.place}</div>
+                <div className="panel-body cc2"><strong> Date </strong> {this.props.info.date}</div>
 
 
             </div>
